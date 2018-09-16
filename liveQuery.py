@@ -176,9 +176,9 @@ class QueryLive:
                       {temp_dict['Job_id']:
                         {'Nodes':
                           {temp_dict['Nid-name']+'||'+temp_dict['C-name']:
-                            {'Reason':temp_dict['Reason'],
-                             'State':temp_dict['State'], 
-                             'Host':temp_dict['Host'], 
+                            {   'Reason':temp_dict['Reason'],
+                                 'State':temp_dict['State'], 
+                                  'Host':temp_dict['Host'], 
                              'Date/Time':temp_dict['Date/Time']}
                           }
                         }
